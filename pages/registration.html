@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <title>Статьи</title>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+</head>
+
+
+<body>
+
+    <div>
+        <ul>
+            <li><a href="../index.html">Головна</a></li>
+            <li><a href="articles.html">Статті</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="page-nav.html">Навігація</a></li>
+            <li><a href="registration.html">Реєстрація</a></li>
+        </ul>
+    </div>
+    <form action="https://tests.fomenko.top/echo/index.php" method="GET">
+        <fieldset>
+            <legend>#1 Галактичні дані</legend>
+            <div>
+                <label for="fam">Зоряний клан</label>
+                <input id="fam" name="lgn" placeholder="Введіть зоряний клан" type="text" value="Клан">
+            </div>
+            <div>
+                <label for="name">Ім'я астронавта</label>
+                <input id="name" name="lgn" placeholder="Введіть ім'я астронавта" type="text" value="Ім'я">
+            </div>
+            <div>
+                <label for="email">Космо-пошта</label>
+                <input id="email" name="email" placeholder="Введіть космо-пошту" type="email">
+            </div>
+            <div>
+                <label for="password">Зоряний пароль</label>
+                <input id="password" maxlength="12" minlength="3" name="psw" placeholder="Введіть зоряний пароль"
+                    type="password">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>#3 Форма життя</legend>
+            <p>Вкажіть вашу форму життя</p>
+            <div>
+                <input id="gender-male" name="gender" type="radio" value="gender-male">
+                <label for="gender-male">Гуманоїд</label>
+            </div>
+            <div>
+                <input id="gender-female" name="gender" type="radio" value="gender-female">
+                <label for="gender-female">Енергетична сутність</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>#4 Зоряна ера</legend>
+            <div>
+                <label for="list">Зоряний цикл народження</label>
+                <select id="list" name="list">
+                    <option disabled selected value="">Виберіть зоряний цикл</option>
+                    <option value="2000">Ера Альфа Центавра</option>
+                    <option value="2001">Епоха Бетельгейзе</option>
+                    <option value="2003">Цикл Сіріуса</option>
+                    <option value="2004">Період Веги</option>
+                    <option value="2005">Еон Проціона</option>
+                    <option value="2006">Ера Антареса</option>
+                    <option value="2007">Цикл Альдебарана</option>
+                    <option value="2008">Епоха Поллукса</option>
+                    <option value="2009">Період Денеба</option>
+                    <option value="2010">Еон Рігеля</option>
+                    <option value="2011">Ера Арктура</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>#2 Космічні навички</legend>
+            <div>
+                <input checked id="ua" name="kit" type="checkbox" value="ua">
+                <label for="ua">Українська</label>
+            </div>
+            <div>
+                <input id="br" name="kit" type="checkbox" value="br">
+                <label for="br">Британська</label>
+            </div>
+            <div>
+                <input id="it" name="kit" type="checkbox" value="it">
+                <label for="it">Італіянська</label>
+            </div>
+            <div>
+                <input id="us" name="kit" type="checkbox" value="us">
+                <label for="us">Американська</label>
+            </div>
+            <div>
+                <input id="fr" name="kit" type="checkbox" value="fr">
+                <label for="fr">Французька</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>#6 Керування зорельотом</legend>
+            <div>
+                <input type="submit" value="Запустити в космос">
+                <input type="reset" value="Обнулити варп-двигун">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
